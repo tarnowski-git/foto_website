@@ -133,7 +133,7 @@ nav:hover ul {
 }
 /* End Nav */
 
-/* About Section */
+/* Sections */
 .left-col {
   width: 60%;
   float: left;
@@ -145,4 +145,43 @@ nav:hover ul {
   float: left;
   margin: 4%;
 }
-/* End About Section */
+
+.one-third-portfolio {
+  width: 29.3333%;
+  padding: 2%;
+  float: left;
+}
+
+.one-third-portfolio img:hover {
+  opacity: 0.6;
+}
+
+.contact p {
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.contact a {
+  color: #2c2c2c;
+}
+
+.break {
+  display: none;
+}
+
+.clearfix {
+  clear: both;
+  height: 3%;
+}
+
+.parallax {
+  background: url("img/parallax.jpeg") repeat fixed 100%;
+  background-position: center bottom;
+  opacity: 0.4;
+}
+
+.parallax-inner {
+  padding-top: 23%;
+}
+/* End Sections */
+

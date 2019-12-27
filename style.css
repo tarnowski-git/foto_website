@@ -163,6 +163,7 @@ nav:hover ul {
 
 .contact a {
   color: #2c2c2c;
+  text-decoration: none;
 }
 
 .break {
@@ -185,3 +186,36 @@ nav:hover ul {
 }
 /* End Sections */
 
+/* Footer */
+.social {
+  list-style-type: none;
+  text-align: center;
+}
+
+.social li {
+  display: inline;
+}
+
+.social i {
+  font-size: 320%;
+  margin: 1% 5% 7% 4%;
+  color: #2c2c2c;
+}
+
+.social i:hover {
+  color: #606060;
+}
+
+footer.second {
+  background-color: #2c2c2c;
+}
+
+footer.second p {
+  color: #ffffff;
+  text-align: center;
+  padding: 3%;
+  font-size: medium;
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+}
+/* End Footer */

@@ -4,7 +4,7 @@
 
 ## Demo
 
-Website:
+[Website](https://tarnowski-git.github.io/robson_website/)
 
 ## Technologies
 
@@ -18,4 +18,4 @@ This website is based on [Drew Ryan](https://www.youtube.com/channel/UCtXGz0MBuq
 
 ## License
 
-This project is licensed under the terms of the **MIT** license.
+This project is licensed under the terms of the [**MIT**](https://github.com/tarnowski-git/robson_website/blob/master/LICENSE) license.

@@ -164,6 +164,7 @@ nav:hover ul {
 
 .contact p {
   text-align: center;
+  max-width: 300px;
   letter-spacing: 5px;
 }
 
@@ -258,6 +259,7 @@ footer.second p {
   .sidebar {
     width: 96%;
     margin: 0 auto;
+    text-align: center;
   }
   img {
     padding: 2%;
@@ -267,6 +269,12 @@ footer.second p {
     margin: 0 auto;
     padding: 0;
   }
+
+  .one-third-portfolio img {
+    text-align: center;
+    object-fit: cover;
+  }
+
   .break {
     display: block;
   }

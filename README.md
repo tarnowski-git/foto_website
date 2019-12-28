@@ -10,6 +10,7 @@ Website:
 
 - HTML5
 - CSS3
+- jQuery 2.2.4
 
 ## Sources
 

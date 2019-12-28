@@ -19,16 +19,37 @@
       href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap&subset=latin-ext"
       rel="stylesheet"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="./jquery.scrollTo.min.js"></script>
+    <script>
+      jQuery(function($) {
+        // scroll reset
+        $.scrollTo(0);
+        // scroll to:
+        $("#link1").click(function() {
+          $.scrollTo($("#about"), 1000);
+        });
+        $("#link2").click(function() {
+          $.scrollTo($("#portfolio"), 1000);
+        });
+        $("#link3").click(function() {
+          $.scrollTo($("#services"), 1000);
+        });
+        $("#link4").click(function() {
+          $.scrollTo($("#contact"), 1000);
+        });
+      });
+    </script>
   </head>
   <body>
     <section class="intro">
       <nav>
         <a href="#!" id="menu-icon"></a>
         <ul>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact Me</a></li>
+          <li><a id="link1" href="#!">About Me</a></li>
+          <li><a id="link2" href="#!">Portfolio</a></li>
+          <li><a id="link3" href="#!">Services</a></li>
+          <li><a id="link4" href="#!">Contact Me</a></li>
         </ul>
       </nav>
       <div class="inner">
@@ -40,7 +61,7 @@
     </section>
     <div class="clearfix"></div>
 
-    <a name="about"></a>
+    <a id="about"></a>
     <section class="left-col">
       <h2>About Me</h2>
       <p style="text-indent: 6%;">
@@ -57,7 +78,7 @@
     </section>
     <div class="clearfix"></div>
 
-    <a name="portfolio"></a>
+    <a id="portfolio"></a>
     <h2>My Portfolio</h2>
     <section class="one-third-portfolio">
       <a
@@ -115,7 +136,7 @@
     </section>
     <div class="clearfix"></div>
 
-    <a name="services"></a>
+    <a id="services"></a>
     <section class="left-col">
       <h2>My Services</h2>
       <p style="text-indent: 6%;">
@@ -142,7 +163,7 @@
     </section>
     <div class="clearfix"></div>
 
-    <a name="contact"></a>
+    <a id="contact"></a>
     <section class="parallax">
       <div class="parallax-inner"></div>
     </section>

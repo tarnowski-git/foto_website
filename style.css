@@ -152,6 +152,12 @@ nav:hover ul {
   float: left;
 }
 
+.one-third-portfolio img {
+  width: auto;
+  height: 300px;
+  object-fit: cover;
+}
+
 .one-third-portfolio img:hover {
   opacity: 0.6;
 }
